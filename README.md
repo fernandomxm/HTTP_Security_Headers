@@ -10,7 +10,7 @@ Cross-Origin-Opener-Policy: same-origin <br>
 Referrer-Policy: no-referrer-when-downgrade <br>
 Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src *; frame-src 'self'; <br>
 
-**Configuração Apache(httpd .conf):**
+**Configuração Apache(httpd .conf):** <br>
 OBS: Lembre-se de habilitar o módulo de headers no servidor: a2enmod headers
 
 Header set Content-Security-Policy "style-src 'self'; img-src 'self' blob: data: *; frame-src 'self' data:;" <br>
