@@ -27,3 +27,7 @@ Header set Access-Control-Allow-Headers "Origin, Accept, Access-Control-Allow-He
 Header set Access-Control-Allow-Methods "GET, POST, HEAD, OPTIONS, PUT, DELETE" <br>
 Header set Access-Control-Max-Age "86400" <br>
 Header set Access-Control-Allow-Credentials "true" <br>
+
+**Como testar**
+
+https://test.securityheaders.com/
